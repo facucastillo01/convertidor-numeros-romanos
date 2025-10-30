@@ -145,11 +145,11 @@ El proyecto se despliega en **Vercel** como una API Serverless.
 
 **Ejemplo de endpoints activos:**
 ```
-https://convertidor-numeros-romanos.vercel.app/to-roman/1987
-→ { "result": "MCMLXXXVII" }
+https://convertidor-numeros-romanos.vercel.app/a2r?arabic=2025
+→ { "result": "MMXXV" }
 
-https://convertidor-numeros-romanos.vercel.app/from-roman/MCMLXXXVII
-→ { "result": 1987 }
+https://convertidor-numeros-romanos.vercel.app/r2a?roman=MMXXV
+→ { "result": 2025 }
 ```
 
 ---
